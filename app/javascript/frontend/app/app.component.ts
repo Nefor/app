@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'frontend',
-  template: `<h1>Hello {{name}}</h1>`
+  template: `<propositions></propositions>`
 })
 export class AppComponent {
   name = 'Frontend!';
