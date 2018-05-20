@@ -14,7 +14,7 @@
 class Proposition < ApplicationRecord
   # There is enough 50 symbols to describe position title
   #
-  #   'Trainee Ruby Developer'
+  #   'Junior Ruby Developer'
   #
   validates :position, length: { minimum: 3, maximum: 50 }
   # Limitation in 5k symbols to prevent unnecessary data storage

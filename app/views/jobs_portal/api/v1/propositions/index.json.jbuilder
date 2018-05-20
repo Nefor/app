@@ -1,0 +1,1 @@
+json.array! @propositions, :id, :position, :salary, :description, :review_in
